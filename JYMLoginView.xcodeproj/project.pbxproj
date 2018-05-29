@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A42AB2820BCF6FB00FAF22D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A42AB2720BCF6FB00FAF22D /* AppDelegate.swift */; };
+		7A42AB2A20BCF6FB00FAF22D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A42AB2920BCF6FB00FAF22D /* ViewController.swift */; };
+		7A42AB2D20BCF6FB00FAF22D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A42AB2B20BCF6FB00FAF22D /* Main.storyboard */; };
+		7A42AB2F20BCF6FE00FAF22D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A42AB2E20BCF6FE00FAF22D /* Assets.xcassets */; };
+		7A42AB3220BCF6FE00FAF22D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A42AB3020BCF6FE00FAF22D /* LaunchScreen.storyboard */; };
+		7A42AB3D20BCF6FE00FAF22D /* JYMLoginViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A42AB3C20BCF6FE00FAF22D /* JYMLoginViewTests.swift */; };
+		7A42AB4820BCF6FE00FAF22D /* JYMLoginViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A42AB4720BCF6FE00FAF22D /* JYMLoginViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A42AB3920BCF6FE00FAF22D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A42AB1C20BCF6FB00FAF22D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A42AB2320BCF6FB00FAF22D;
+			remoteInfo = JYMLoginView;
+		};
+		7A42AB4420BCF6FE00FAF22D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A42AB1C20BCF6FB00FAF22D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A42AB2320BCF6FB00FAF22D;
+			remoteInfo = JYMLoginView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A42AB2420BCF6FB00FAF22D /* JYMLoginView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYMLoginView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A42AB2720BCF6FB00FAF22D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A42AB2920BCF6FB00FAF22D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A42AB2C20BCF6FB00FAF22D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A42AB2E20BCF6FE00FAF22D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A42AB3120BCF6FE00FAF22D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A42AB3320BCF6FE00FAF22D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A42AB3820BCF6FE00FAF22D /* JYMLoginViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYMLoginViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A42AB3C20BCF6FE00FAF22D /* JYMLoginViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYMLoginViewTests.swift; sourceTree = "<group>"; };
+		7A42AB3E20BCF6FE00FAF22D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A42AB4320BCF6FE00FAF22D /* JYMLoginViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYMLoginViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A42AB4720BCF6FE00FAF22D /* JYMLoginViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYMLoginViewUITests.swift; sourceTree = "<group>"; };
+		7A42AB4920BCF6FE00FAF22D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A42AB2120BCF6FB00FAF22D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A42AB3520BCF6FE00FAF22D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A42AB4020BCF6FE00FAF22D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A42AB1B20BCF6FB00FAF22D = {
+			isa = PBXGroup;
+			children = (
+				7A42AB2620BCF6FB00FAF22D /* JYMLoginView */,
+				7A42AB3B20BCF6FE00FAF22D /* JYMLoginViewTests */,
+				7A42AB4620BCF6FE00FAF22D /* JYMLoginViewUITests */,
+				7A42AB2520BCF6FB00FAF22D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A42AB2520BCF6FB00FAF22D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A42AB2420BCF6FB00FAF22D /* JYMLoginView.app */,
+				7A42AB3820BCF6FE00FAF22D /* JYMLoginViewTests.xctest */,
+				7A42AB4320BCF6FE00FAF22D /* JYMLoginViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A42AB2620BCF6FB00FAF22D /* JYMLoginView */ = {
+			isa = PBXGroup;
+			children = (
+				7A42AB2720BCF6FB00FAF22D /* AppDelegate.swift */,
+				7A42AB2920BCF6FB00FAF22D /* ViewController.swift */,
+				7A42AB2B20BCF6FB00FAF22D /* Main.storyboard */,
+				7A42AB2E20BCF6FE00FAF22D /* Assets.xcassets */,
+				7A42AB3020BCF6FE00FAF22D /* LaunchScreen.storyboard */,
+				7A42AB3320BCF6FE00FAF22D /* Info.plist */,
+			);
+			path = JYMLoginView;
+			sourceTree = "<group>";
+		};
+		7A42AB3B20BCF6FE00FAF22D /* JYMLoginViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A42AB3C20BCF6FE00FAF22D /* JYMLoginViewTests.swift */,
+				7A42AB3E20BCF6FE00FAF22D /* Info.plist */,
+			);
+			path = JYMLoginViewTests;
+			sourceTree = "<group>";
+		};
+		7A42AB4620BCF6FE00FAF22D /* JYMLoginViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A42AB4720BCF6FE00FAF22D /* JYMLoginViewUITests.swift */,
+				7A42AB4920BCF6FE00FAF22D /* Info.plist */,
+			);
+			path = JYMLoginViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A42AB2320BCF6FB00FAF22D /* JYMLoginView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A42AB4C20BCF6FE00FAF22D /* Build configuration list for PBXNativeTarget "JYMLoginView" */;
+			buildPhases = (
+				7A42AB2020BCF6FB00FAF22D /* Sources */,
+				7A42AB2120BCF6FB00FAF22D /* Frameworks */,
+				7A42AB2220BCF6FB00FAF22D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYMLoginView;
+			productName = JYMLoginView;
+			productReference = 7A42AB2420BCF6FB00FAF22D /* JYMLoginView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A42AB3720BCF6FE00FAF22D /* JYMLoginViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A42AB4F20BCF6FE00FAF22D /* Build configuration list for PBXNativeTarget "JYMLoginViewTests" */;
+			buildPhases = (
+				7A42AB3420BCF6FE00FAF22D /* Sources */,
+				7A42AB3520BCF6FE00FAF22D /* Frameworks */,
+				7A42AB3620BCF6FE00FAF22D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A42AB3A20BCF6FE00FAF22D /* PBXTargetDependency */,
+			);
+			name = JYMLoginViewTests;
+			productName = JYMLoginViewTests;
+			productReference = 7A42AB3820BCF6FE00FAF22D /* JYMLoginViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A42AB4220BCF6FE00FAF22D /* JYMLoginViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A42AB5220BCF6FE00FAF22D /* Build configuration list for PBXNativeTarget "JYMLoginViewUITests" */;
+			buildPhases = (
+				7A42AB3F20BCF6FE00FAF22D /* Sources */,
+				7A42AB4020BCF6FE00FAF22D /* Frameworks */,
+				7A42AB4120BCF6FE00FAF22D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A42AB4520BCF6FE00FAF22D /* PBXTargetDependency */,
+			);
+			name = JYMLoginViewUITests;
+			productName = JYMLoginViewUITests;
+			productReference = 7A42AB4320BCF6FE00FAF22D /* JYMLoginViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A42AB1C20BCF6FB00FAF22D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = zzq;
+				TargetAttributes = {
+					7A42AB2320BCF6FB00FAF22D = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					7A42AB3720BCF6FE00FAF22D = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 7A42AB2320BCF6FB00FAF22D;
+					};
+					7A42AB4220BCF6FE00FAF22D = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 7A42AB2320BCF6FB00FAF22D;
+					};
+				};
+			};
+			buildConfigurationList = 7A42AB1F20BCF6FB00FAF22D /* Build configuration list for PBXProject "JYMLoginView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A42AB1B20BCF6FB00FAF22D;
+			productRefGroup = 7A42AB2520BCF6FB00FAF22D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A42AB2320BCF6FB00FAF22D /* JYMLoginView */,
+				7A42AB3720BCF6FE00FAF22D /* JYMLoginViewTests */,
+				7A42AB4220BCF6FE00FAF22D /* JYMLoginViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A42AB2220BCF6FB00FAF22D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A42AB3220BCF6FE00FAF22D /* LaunchScreen.storyboard in Resources */,
+				7A42AB2F20BCF6FE00FAF22D /* Assets.xcassets in Resources */,
+				7A42AB2D20BCF6FB00FAF22D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A42AB3620BCF6FE00FAF22D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A42AB4120BCF6FE00FAF22D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A42AB2020BCF6FB00FAF22D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A42AB2A20BCF6FB00FAF22D /* ViewController.swift in Sources */,
+				7A42AB2820BCF6FB00FAF22D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A42AB3420BCF6FE00FAF22D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A42AB3D20BCF6FE00FAF22D /* JYMLoginViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A42AB3F20BCF6FE00FAF22D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A42AB4820BCF6FE00FAF22D /* JYMLoginViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A42AB3A20BCF6FE00FAF22D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A42AB2320BCF6FB00FAF22D /* JYMLoginView */;
+			targetProxy = 7A42AB3920BCF6FE00FAF22D /* PBXContainerItemProxy */;
+		};
+		7A42AB4520BCF6FE00FAF22D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A42AB2320BCF6FB00FAF22D /* JYMLoginView */;
+			targetProxy = 7A42AB4420BCF6FE00FAF22D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A42AB2B20BCF6FB00FAF22D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A42AB2C20BCF6FB00FAF22D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A42AB3020BCF6FE00FAF22D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A42AB3120BCF6FE00FAF22D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A42AB4A20BCF6FE00FAF22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A42AB4B20BCF6FE00FAF22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A42AB4D20BCF6FE00FAF22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JYMLoginView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jinyinmao.JYMLoginView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A42AB4E20BCF6FE00FAF22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JYMLoginView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jinyinmao.JYMLoginView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A42AB5020BCF6FE00FAF22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JYMLoginViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jinyinmao.JYMLoginViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYMLoginView.app/JYMLoginView";
+			};
+			name = Debug;
+		};
+		7A42AB5120BCF6FE00FAF22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JYMLoginViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jinyinmao.JYMLoginViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYMLoginView.app/JYMLoginView";
+			};
+			name = Release;
+		};
+		7A42AB5320BCF6FE00FAF22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JYMLoginViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jinyinmao.JYMLoginViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JYMLoginView;
+			};
+			name = Debug;
+		};
+		7A42AB5420BCF6FE00FAF22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JYMLoginViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jinyinmao.JYMLoginViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JYMLoginView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A42AB1F20BCF6FB00FAF22D /* Build configuration list for PBXProject "JYMLoginView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A42AB4A20BCF6FE00FAF22D /* Debug */,
+				7A42AB4B20BCF6FE00FAF22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A42AB4C20BCF6FE00FAF22D /* Build configuration list for PBXNativeTarget "JYMLoginView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A42AB4D20BCF6FE00FAF22D /* Debug */,
+				7A42AB4E20BCF6FE00FAF22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A42AB4F20BCF6FE00FAF22D /* Build configuration list for PBXNativeTarget "JYMLoginViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A42AB5020BCF6FE00FAF22D /* Debug */,
+				7A42AB5120BCF6FE00FAF22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A42AB5220BCF6FE00FAF22D /* Build configuration list for PBXNativeTarget "JYMLoginViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A42AB5320BCF6FE00FAF22D /* Debug */,
+				7A42AB5420BCF6FE00FAF22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A42AB1C20BCF6FB00FAF22D /* Project object */;
+}
