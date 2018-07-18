@@ -43,6 +43,15 @@ class ViewController2: UIViewController {
         
     }
 
+    func changeTransform()  {
+        for i in 0..<arr.count {
+            let c1 = arr[i]
+            UIView.animate(withDuration: 0.3) {
+                c1.layer.transform = CATransform3DTranslate(self.mat, 0,  -CGFloat(-i*30), CGFloat(-i*30))
+            }
+           
+        }
+    }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let p = touches.first?.location(in: self.view)
         
@@ -59,31 +68,41 @@ class ViewController2: UIViewController {
             let p = touches.first?.location(in: self.view)
             let y = oPoint.y - p!.y
             let x = oPoint.x - p!.x
+            print("x:\(x), y:\(y)")
             
             arr[0].centerY =  center.y - y
             arr[0].centerX =  (center.x - x)
-            arr[0].layer.transform = CATransform3DRotate(mat, x/center.x*(.pi), 0, 0, 1)
+            
+//            arr[0].layer.transform = CATransform3DRotate(mat, x/center.x*(.pi)*0.2, 0, 0, 1)
         }
         
     }
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         selected = false
         
-//        if center.x-arr[0].centerX>100 { //remove
-//            UIView.animate(withDuration: 0.3, animations: {
-//                
-//            }, completion: {
-//                
-//            })
-//        }else {
-//            UIView.animate(withDuration: 0.3, animations: {
-//                self.arr[0].center = self.center
-//               self.arr[0].layer.transform = CATransform3DRotate(self.mat, 0, 0, 0, 0)
-//            }, completion: {
-//                
-//            })
-//        }
-       
+        
+        if abs(arr[0].centerX-center.x) > 100 {
+            let v1 =  arr[0]
+            UIView.animate(withDuration: 0.3, animations: {
+                v1.centerX = self.view.width*1.5
+            }, completion: { (finished) in
+                self.arr[0].removeFromSuperview()
+                self.arr.remove(at: 0)
+                v1.frame = CGRect(x: 10, y: 200, width: 355, height: 250)
+                self.view.addSubview(v1)
+                self.arr.append(v1)
+                self.changeTransform()
+            })
+            
+            
+            
+        }else {
+            UIView.animate(withDuration: 0.25) {
+                self.arr[0].center = self.center
+            }
+        }
+        
+
         
     }
     /*
